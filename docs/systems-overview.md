@@ -1,4 +1,5 @@
 ---
+slug: /
 sidebar_position: 4
 description: A overview of the different game systems used by project gutz
 ---
