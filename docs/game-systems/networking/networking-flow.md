@@ -3,6 +3,7 @@ sidebar_position: 1
 description: An overview of how networking is initialized for project gutz
 tags:
   - Networking
+  - Bootloader
 ---
 
 # Network Flow
