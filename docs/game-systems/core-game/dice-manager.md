@@ -9,3 +9,12 @@ tags:
 ---
 
 # Dice Manager
+
+```mermaid
+  stateDiagram-v2
+    [*] --> SpawnDice
+    SpawnDice --> Rolling: Next
+    Rolling --> RollResult: RollingDone
+    RollResult --> RollResult: Next
+    RollResult --> [*]: Reset
+```
