@@ -6,3 +6,5 @@ tags:
 ---
 
 # View Manager
+
+The View Manager Is Great!
