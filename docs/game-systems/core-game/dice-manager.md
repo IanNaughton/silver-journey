@@ -12,9 +12,10 @@ tags:
 
 ```mermaid
   stateDiagram-v2
-    [*] --> SpawnDice
+    [*] --> Init
+    Init --> SpawnDice
     SpawnDice --> Rolling: Next
     Rolling --> RollResult: RollingDone
-    RollResult --> RollResult: Next
-    RollResult --> [*]: Reset
+    RollResult --> RollResult: Next (Cleanup Dice)
+    RollResult --> Init: Reset
 ```
